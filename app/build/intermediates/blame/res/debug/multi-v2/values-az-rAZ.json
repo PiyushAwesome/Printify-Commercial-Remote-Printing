@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\YUPD2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az-rAZ\\values-az-rAZ.xml",
+            "outputFile": "C:\\Users\\Parth\\AndroidStudioProjects\\PrintifyAmity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az-rAZ\\values-az-rAZ.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Shadow\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\3938a27c1274b72b6bb5264aa5883503\\res\\values-az-rAZ\\values-az-rAZ.xml",
+                    "source": "C:\\Users\\Parth\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.1.aar\\6999905b4cc48166edc7a32a0af09d4c\\res\\values-az-rAZ\\values-az-rAZ.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

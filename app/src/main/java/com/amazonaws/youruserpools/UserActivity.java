@@ -33,6 +33,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -48,6 +49,7 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserSession
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GenericHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GetDetailsHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.UpdateAttributesHandler;
+import com.amazonaws.youruserpools.CognitoYourUserPoolsDemo.PrintActivity;
 import com.amazonaws.youruserpools.CognitoYourUserPoolsDemo.R;
 
 import java.util.ArrayList;
@@ -80,7 +82,15 @@ public class UserActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-
+        //Set Button
+        Button print_button=(Button)findViewById(R.id.Print_button);
+        print_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(view.getContext(), PrintActivity.class);
+                startActivity(intent);
+            }
+        });
         // Set toolbar for this screen
         toolbar = (Toolbar) findViewById(R.id.main_toolbar);
         toolbar.setTitle("");

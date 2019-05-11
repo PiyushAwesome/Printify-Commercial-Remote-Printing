@@ -722,6 +722,7 @@ drawable text_border_error
 drawable text_border_selected
 drawable text_border_selector
 id ForgotPassword_button
+id Print_button
 id ScrollView01
 id aboutBack
 id about_toolbar_title
@@ -941,6 +942,7 @@ id space13
 id space2
 id space3
 id space4
+id space5
 id space7
 id space8
 id space9
@@ -1126,6 +1128,7 @@ layout activity_forgot_password
 layout activity_main
 layout activity_mfa
 layout activity_new_password
+layout activity_print
 layout activity_register_user
 layout activity_settings
 layout activity_sign_up_confirm
